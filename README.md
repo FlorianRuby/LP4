@@ -22,13 +22,13 @@ Ich habe mir überlegt das ich zuerst ein normales Tiktaktoe programmiere und da
 
 ## 27.2.2024
 
-- [ ] Winforms ausprobieren
+- [ ] Mit Winforms experimentieren
 - [ ] Felder erstellen mit Klick funktion
 - [ ] Sieger bestimmungsfunktion
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
-| 1 | - | - | - | - |
+| 1 | VS mit winforms geöffnet | Objekte einfügen | Objekte erscheinen |  |
 | 2 | Felder  | Klick auf Feld  |  Änderung der Farbe des Feldes oder signalisierung zu welchem Spieler das Feld gehört |          |
 | 3 | 3 Felder in einer Reihe/Linie | Automatisch | Fenster das signalisiert wer gewonnen hat |          |
 
