@@ -38,18 +38,33 @@ Ich habe mir überlegt das ich zuerst ein normales Tiktaktoe programmiere und da
 
 ## 05.03.2024
 
-- [ ] Entschieden welche Flaggen ich benutzen will (welche Länder, simplifizierte Versionen oder nicht etc.)
-- [ ] Alle Flaggen in gleicher Grösse und Qualität als Datei bekommen
-- [ ] Entscheiden zu welcher Schwierigkeit welche Flagge gehört (einfach, mittel, schwer)
+- [X] Entschieden welche Flaggen ich benutzen will (welche Länder, simplifizierte Versionen oder nicht etc.)
+- [X] Alle Flaggen in gleicher Grösse und Qualität als Datei bekommen
+- [X] Entscheiden zu welcher Schwierigkeit welche Flagge gehört (einfach, mittel, schwer)
 - [ ] Flaggen testweise in Winforms einfügen
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
-| 1 | Browser | Liste an Flaggen finden | Entscheidung für Flaggen (Liste) getroffen |  |
-| 2 | Browser  | Suche nach Flaggen & falls nicht in richtiger Grösse = zuschneiden |  Flaggen Dateien in richtiger Grösse etc in einem Ordner |  |
-| 3 | Flaggen Dateien | Einteilung | Flaggen Datei entweder in Ordner einfach, mittel oder schwer  |  |
+| 1 | Browser | Liste an Flaggen finden | Entscheidung für Flaggen (Liste) getroffen | Ja |
+| 2 | Browser  | Suche nach Flaggen & falls nicht in richtiger Grösse = zuschneiden |  Flaggen Dateien in richtiger Grösse etc in einem Ordner | Ja |
+| 3 | Flaggen Dateien | Einteilung | Flaggen Datei entweder in Ordner einfach, mittel oder schwer  | Ja |
 | 4 | Flaggen Dateien | winforms code/Toolbox item | Flagge wird angezeigt |  |
 
+✍️ Heute habe ich mich für alle Länder entschlossen, welche ich einbeziehen will. Ich habe mich für die 193 UN Mitgliedstaaten entschieden und habe darauf hin ein Dokument mit allen Ländern Alphabetisch sortiert erstellt. Ich habe ausserdem auch jede einezelne Flagge heruntergeladen und dann diese nach der Schwierigkeit in entweder Einfach, Mittel oder Schwierig einsortiert. Ich habe dazu für jede einzelne Schwierigkeitsstufe ein Dokument erstellt mit den Namen der einzelnen Länder. Heute habe ich es allerdings nicht geschafft diese Flaggen bereits in Winforms einzufügen. 
+
+## 12.03.2024
+
+- [ ] Flaggen testweise in Winforms einfügen
+- [ ] Flaggen und Flaggennamen als Array speichern und Zufallsgenerator für diese
+- [ ] Alle Flaggen in gleicher Grösse und Qualität in Winforms einfügen
+- [ ] Alle Flaggen in gleicher Grösse und Qualität in Winforms einfügen 
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --------------- | -------------------- | -------------- | -------------- | -------- |
+| 1 | Alle Flaggen als einzelne Datei | Flagge in Winforms einfügen | Flagge erscheint |  |
+| 2 | Flaggen und Länder als Liste + Zufallsgenerator  | Programm startet | Länder Name wird angezeigt |  |
+| 3 | Flaggen und Länder als Liste + Zufallsgenerator | Programm startet | Länder Name **& Flagge** wird angezeigt  |  |
+| 3 | Flaggen und Länder als Liste + Zufallsgenerator | Programm startet | Länder Name **& Flagge** wird angezeigt  |  |
 
 ## Reflexion
 
