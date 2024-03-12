@@ -41,7 +41,7 @@ Ich habe mir überlegt das ich zuerst ein normales Tiktaktoe programmiere und da
 - [X] Entschieden welche Flaggen ich benutzen will (welche Länder, simplifizierte Versionen oder nicht etc.)
 - [X] Alle Flaggen in gleicher Grösse und Qualität als Datei bekommen
 - [X] Entscheiden zu welcher Schwierigkeit welche Flagge gehört (einfach, mittel, schwer)
-- [ ] Flaggen testweise in Winforms einfügen
+- [X] Flaggen testweise in Winforms einfügen
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
@@ -54,17 +54,33 @@ Ich habe mir überlegt das ich zuerst ein normales Tiktaktoe programmiere und da
 
 ## 12.03.2024
 
-- [ ] Flaggen testweise in Winforms einfügen
-- [ ] Flaggen und Flaggennamen als Array speichern und Zufallsgenerator für diese
-- [ ] Alle Flaggen in gleicher Grösse und Qualität in Winforms einfügen
-- [ ] Alle Flaggen in gleicher Grösse und Qualität in Winforms einfügen 
+- [X] Flaggen testweise in Winforms einfügen
+- [X] Flaggen und Flaggennamen als Array speichern und Zufallsgenerator für diese
+- [X] Alle Flaggen in gleicher Grösse und Qualität in Winforms einfügen
+- [X] Alle Flaggen in gleicher Grösse und Qualität in Winforms einfügen 
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
-| 1 | Alle Flaggen als einzelne Datei | Flagge in Winforms einfügen | Flagge erscheint |  |
-| 2 | Flaggen und Länder als Liste + Zufallsgenerator  | Programm startet | Länder Name wird angezeigt |  |
-| 3 | Flaggen und Länder als Liste + Zufallsgenerator | Programm startet | Länder Name **& Flagge** wird angezeigt  |  |
-| 3 | Flaggen und Länder als Liste + Zufallsgenerator | Programm startet | Länder Name **& Flagge** wird angezeigt  |  |
+| 1 | Alle Flaggen als einzelne Datei | Flagge in Winforms einfügen | Flagge erscheint | Ja |
+| 2 | Flaggen und Länder als Liste + Zufallsgenerator  | Programm startet | Länder Name wird angezeigt | Nein |
+| 3 | Flaggen und Länder als Liste + Zufallsgenerator | Programm startet | Länder Name **& Flagge** wird angezeigt  | Nein |
+| 4 | Flaggen und Länder als Liste + Zufallsgenerator | Programm startet | Länder Name **& Flagge** wird angezeigt  | Nein |
+
+✍️ Heute habe ich mich um die Implementierung des Zufallsgenerator und der Flaggen gekümmert, ich habe den ganzen Code geschrieben und er sollte in der Theorie eigentlich auch funktionieren aber meine PictureBox's zeigen bisher noch keine Flagen an. Ich werde mich beim nächsten mal darum kümmern diesen Fehler zu beheben.
+
+## 19.03.2024
+
+- [ ] Flaggen werden angezeigt
+- [ ] Flaggen werden angezeigt
+- [ ] Box in welcher man Namen der Flagge eingeben kann
+- [ ] Check ob der Name richtig oder Falsch ist 
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --------------- | -------------------- | -------------- | -------------- | -------- |
+| 1 | Flaggen und Länder als Liste + Zufallsgenerator | Programm startet | Flagge erscheint automatisch |  |
+| 2 | Flaggen und Länder als Liste + Zufallsgenerator | Programm startet | Flagge erscheint automatisch |  |
+| 3 | Flaggen werden angezeigt | neues Box fenster | Ländernamen sind eingebbar  |  |
+| 4 | Flaggen werden angezeigt | Name eingeben | Richtiger/Falscher Name wird erkannt  |  |
 
 ## Reflexion
 
