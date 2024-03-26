@@ -84,7 +84,7 @@ Ich habe mir überlegt das ich zuerst ein normales Tiktaktoe programmiere und da
 
 ✍️ Heute konnte ich nicht viel machen da ich einen Bug in VS hatte und der der Designer nicht geladen hat. Ich habe probiert den Bug zu beheben aber ich habe im Internet nicht viel gefunden, was auch funktioniert hat. Eine möglichkeit ist es ganz Windows neu zu installieren und VS danach auch neu zu installieren aber ich wollte dies noch nicht versuchen, vor allem weil es bei mir zu Hause ging. Ich konnte allerdings den Zufallsgenerator der Flaggen fertiggstellen und man sieht jetzt auf jedem Feld eine zufällige Flagge. Bei manchen Flaggen Dateien muss ich allerdings noch den Namen anpassen, was ich bisher noch nicht machen konnte, da ich dazu auf den Designer zugreifen muss. 
 
-## 16.03.2024
+## 26.03.2024
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
@@ -92,6 +92,16 @@ Ich habe mir überlegt das ich zuerst ein normales Tiktaktoe programmiere und da
 | 1 | Wer Flagge richtig erraten hat wird angezeigt | Name eingeben | Richtiger/Falscher Name wird erkannt  |  |
 | 3 | Wer Flagge richtig erraten hat wird angezeigt | Name eingeben | Richtiger/Falscher Name wird erkannt  |  |
 | 4 | Neues Spiel Fenster | Spiel fertig | Neues Spiel, JA/NEIN  |  |
+
+✍️ Heute konnte ich leider nicht so viel machen. Ich habe nach Ihrem Rat ein neues Projekt erstellt, dieses mal .net und habe probiert den abgeänderten code stückweise herein zu kopieren, allerdings habe ich bei .net einen Debugg Fehler direkt am Anfang bekommen, da ein Debug Profil nicht existierte oder eine andere wichtige Datei in dem gleichen Ordner fehlte. Ich habe danach probiert alles in ein normales Winforms Projekt herein zu kopieren und bin gerade daran dies zu tun. 
+
+## 02.04.2024
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --------------- | -------------------- | -------------- | -------------- | -------- |
+| 1 | Flaggen werden angezeigt | neues Box fenster | Ländernamen sind eingebbar  |  |
+| 1 | Wer Flagge richtig erraten hat wird angezeigt | Name eingeben | Richtiger/Falscher Name wird erkannt  |  |
+| 3 | Wer Flagge richtig erraten hat wird angezeigt | Name eingeben | Richtiger/Falscher Name wird erkannt  |  |
 
 ## Reflexion
 
