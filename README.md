@@ -103,6 +103,8 @@ Ich habe mir überlegt das ich zuerst ein normales Tiktaktoe programmiere und da
 | 1 | Wer Flagge richtig erraten hat wird angezeigt | Name eingeben | Richtiger/Falscher Name wird erkannt  |  |
 | 3 | Wer Flagge richtig erraten hat wird angezeigt | Name eingeben | Richtiger/Falscher Name wird erkannt  |  |
 
-## Reflexion
+✍️ Heute habe ich weiter daran gearbeitet den Code neu zu schreiben, ich hatte allerdings wieder das gleiche Problem sodass ich den Designer nicht öffnen konnte und nur den code neu geschrieben habe ohne die Felder (zb image oder Texbox) zu erstellen. 
 
-Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
+## Reflexion
+In dieser Lernperiode habe ich probiert ein Tictactoe, bei welchem man Flaggennamen eingeben muss um die Felder zu bekommen zu programmieren. Ich habe am Anfang mithilfe eines Youtube tutorials ein normales Tictactoe programmiert um herauszufinden wie dies eigentlich funktioniert. Danach habe ich probiert das auf jedem Feld zufällige Flaggen angezeigt werden, was ich auch geschafft habe, danach musste ich nur noch die Funktion einfügen das man den Namen der Flagge eingeben kann und das man dann auch dieses Feld bekommt, allerdings hatte ich an diesem Punkt das Problem das ich den Winforms Designer nicht mehr öffnen konnte und somit konnte ich leider auch kein Textfeld einfügen, mit welchem man die Namen eingibt. Ich habe fast zwei Wochen lang probiert dieses Problem zu beheben, jedoch habe ich es allerdings nicht geschaft und habe danach probiert den ganzen Code effizienter neu zu schreiben. Bei diesem Prozess hatte ich allerdings auch wieder das gleiche Problem und somit konnte ich zwar den Code neu schreiben aber ich konnte keine Textfelder PictureBoxes etc einfügen und somit funktioniert das ganze Programm zwar  in der Theorie aber nicht in Wirklichkeit. 
+
